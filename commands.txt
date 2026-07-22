@@ -2,3 +2,6 @@ uvicorn main:app --reload
 curl -i http://localhost:8000/
 Invoke-WebRequest http://localhost:8000/
 Invoke-WebRequest http://localhost:8000/health
+Invoke-WebRequest http://localhost:8000/tasks
+Invoke-WebRequest http://localhost:8000/tasks/1
+Invoke-WebRequest http://localhost:8000/tasks/50
