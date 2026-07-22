@@ -9,3 +9,4 @@ Invoke-RestMethod -Uri "http://localhost:8000/tasks" -Method Post -ContentType "
 Invoke-RestMethod -Uri "http://localhost:8000/tasks" -Method Post -ContentType "application/json" -Body '{}'
 Invoke-RestMethod -Uri "http://localhost:8000/tasks/1" -Method Put -ContentType "application/json" -Body '{"title":"buy healthy groceries", "done":true}'
 Invoke-WebRequest -Uri "http://localhost:8000/tasks/1" -Method Delete
+http://localhost:8000/docs
